@@ -3,7 +3,7 @@ name: OS Quality Control
 on:
   # Trigger the robot on every push to master or staging
   push:
-    branches: [ "master", "staging" ]
+    branches: [ "master","main", "staging" ]
   # Also trigger when someone opens a Pull Request to master
   pull_request:
     branches: [ "master" ]
