@@ -5,6 +5,11 @@
     <rule ref="WordPress-Core" />
     <rule ref="WordPress-Extra" />
     <rule ref="WordPress-Docs" />
+    <rule ref="WordPress.Files.FileName">
+        <properties>
+            <property name="strict_class_file_names" value="false"/>
+        </properties>
+    </rule>
 
     <arg name="extensions" value="php"/>
     <arg name="colors"/>
